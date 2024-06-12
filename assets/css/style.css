@@ -22,7 +22,11 @@ body {
 
 /* Header */
 header {
-    background-color: red;
+    background-color: transparent;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 
     h1 {
         font-family: 'Kanit', sans-serif;
