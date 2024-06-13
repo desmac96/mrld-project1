@@ -48,8 +48,8 @@ header {
     margin-top: 650px;
     text-align: center;
     font-size: 150%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 5%;
 }
 
@@ -66,7 +66,7 @@ header a {
 }
 
 #sc-mixes {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 h1 {
@@ -89,7 +89,7 @@ h1 {
 }
 
 .active {
-    border-bottom: black;
+    border-bottom: 1px solid #FDFDFD;
 }
 
 /* Navbar styles with dropdown toggle*/
@@ -139,11 +139,14 @@ main {
     height: 800px;
     width: 100%;
     top: 0;
-    background: url(../images/Untitled\ design-10.png) no-repeat center center/cover;
+    background-image: url(../images/Untitled\ design-10.png) no-repeat center center/cover;
     background-size: 100%;
     z-index: 0;
 }
 
+#sc-mixes {
+    line-height: 0;
+}
 
 
 /* Footer */
