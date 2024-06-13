@@ -17,7 +17,19 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #FDFDFD;
+    background-color: #3a3a3a;
     font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FDFDFD;
+    text-decoration: none;
 }
 
 /* Header */
@@ -99,6 +111,15 @@ main {
     width: 100%;
     top: 0;
     background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
+    background-size: 100%;
+}
+
+#hero2 {
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    top: 0;
+    background: url(../images/Untitled\ design-10.png) no-repeat center center/cover;
     background-size: 100%;
 }
 
