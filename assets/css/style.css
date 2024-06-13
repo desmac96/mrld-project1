@@ -94,7 +94,8 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    position: absolute;
+    height: 800px;
     width: 100%;
     top: 0;
     background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
