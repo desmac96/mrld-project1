@@ -114,8 +114,15 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 48px;
+    margin-top: 43px;
 }
+
+#sign-up-form {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 180%;
+}
+
 
 /* Hero Section */
 #hero {
@@ -135,12 +142,10 @@ main {
     width: 100%;
     top: 0;
     background-size: 100%;
-    z-index: 0;
 }
 
 #sign-up {
     text-align: center;
-    z-index: 1;
     margin-top: 100px;
     font-size: 180%;
 }
@@ -211,8 +216,6 @@ footer {
 
     #sign-up {
         text-align: center;
-        z-index: 1;
-        margin-top: 100px;
         font-size: 150%;
     }
 }
@@ -232,7 +235,6 @@ footer {
     }
 
     #sign-up {
-        margin-top: 70px;
         font-size: 150%;
     }
 
