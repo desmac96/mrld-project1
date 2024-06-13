@@ -68,7 +68,7 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
+    top: 0;
     word-spacing: 10px;
 }
 
@@ -87,15 +87,29 @@ nav {
 
 /* Main Content */
 main {
-    background-color: aqua;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-
+    margin-top: 48px;
 }
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    top: 0;
+    background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
+    background-size: 100%;
+}
+
+
 
 /* Footer */
 footer {
-    background-color: #3a3a3a;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+    text-align: center;
 }
 
 #social-networks {
@@ -149,7 +163,7 @@ footer {
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
+            border-bottom: 1px solid #FDFDFD;
         }
 
         #social-networks i {
