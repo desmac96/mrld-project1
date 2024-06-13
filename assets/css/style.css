@@ -29,24 +29,32 @@ header {
     width: 100%;
 }
 
-    header a {
-        text-decoration: none;
-        color: inherit;
-    }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
-    h1 {
-        font-family: 'Kanit', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #FDFDFD;
-        text-decoration: none;
-    }
-
-#logo {
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FDFDFD;
     text-decoration: none;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: #3a3a3a;
 }
 
 /* Main Content */
