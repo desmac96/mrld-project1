@@ -53,13 +53,6 @@ header {
     padding: 5%;
 }
 
-#sign-up {
-    text-align: center;
-    z-index: 1;
-    margin-top: 100px;
-    font-size: 180%;
-}
-
 header a {
     text-decoration: none;
     color: inherit;
@@ -126,34 +119,34 @@ main {
 
 /* Hero Section */
 #hero {
+    background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
     position: absolute;
     height: 800px;
     width: 100%;
     top: 0;
-    background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
     background-size: 100%;
 }
 
 #hero2 {
+    background: url(../images/Untitled\ design-10.png) no-repeat center center/cover transparent;
     position: absolute;
+    text-align: center;
     height: 800px;
     width: 100%;
     top: 0;
-    background-image: url(../images/Untitled\ design-10.png) no-repeat center center/cover;
     background-size: 100%;
     z-index: 0;
 }
 
-#sc-mixes {
-    line-height: 0;
+#sign-up {
+    text-align: center;
+    z-index: 1;
+    margin-top: 100px;
+    font-size: 180%;
 }
 
-
-/* Footer */
-footer {
-    clear: both;
-    position: relative;
-    text-align: center;
+#sc-mixes {
+    line-height: 0;
 }
 
 #social-networks {
@@ -168,6 +161,18 @@ footer {
     font-size: 150;
     padding: 5%;
     color: #FDFDFD;
+}
+
+#services {
+    font-size: 100%;
+}
+
+
+/* Footer */
+footer {
+    clear: both;
+    position: relative;
+    text-align: center;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -204,14 +209,31 @@ footer {
         font-size: 175%;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #FDFDFD;
-        }
-
-        #social-networks i {
-            font-size: 200%;
-        }
-
+    #sign-up {
+        text-align: center;
+        z-index: 1;
+        margin-top: 100px;
+        font-size: 150%;
     }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #FDFDFD;
+    }
+
+    #social-networks i {
+        font-size: 200%;
+    }
+
+    #services {
+        font-size: 120%;
+    }
+
+    #sign-up {
+        margin-top: 70px;
+        font-size: 150%;
+    }
+
+}
