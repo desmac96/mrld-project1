@@ -95,7 +95,21 @@ main {
 
 /* Footer */
 footer {
-    background-color: brown;
+    background-color: #3a3a3a;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150;
+    padding: 5%;
+    color: #FDFDFD;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -127,11 +141,19 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-}
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    #social-networks i {
+        font-size: 175%;
     }
-}
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        #social-networks i {
+            font-size: 200%;
+        }
+
+    }
