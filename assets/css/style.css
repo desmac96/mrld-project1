@@ -45,12 +45,28 @@ header {
 }
 
 #services {
-    margin-top: 800px;
+    margin-top: 650px;
+    text-align: center;
+    font-size: 150%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+#sign-up {
+    text-align: center;
+    z-index: 1;
+    margin-top: 100px;
+    font-size: 180%;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+#sc-mixes {
+    margin-top: 100px;
 }
 
 h1 {
@@ -125,6 +141,7 @@ main {
     top: 0;
     background: url(../images/Untitled\ design-10.png) no-repeat center center/cover;
     background-size: 100%;
+    z-index: 0;
 }
 
 
