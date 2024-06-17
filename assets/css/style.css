@@ -126,6 +126,21 @@ main {
     font-size: 180%;
 }
 
+#button {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#radio-buttons {
+    margin-bottom: 20px;
+}
 
 /* Hero Section */
 #hero {
