@@ -60,6 +60,7 @@ header a {
 
 #sc-mixes {
     margin-top: 80px;
+    text-align: center;
 }
 
 h1 {
@@ -179,6 +180,7 @@ footer {
     clear: both;
     position: relative;
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* Media query: tablets and larger (768px and up) */
