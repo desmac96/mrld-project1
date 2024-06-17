@@ -164,6 +164,9 @@ main {
     font-size: 100%;
 }
 
+#services div {
+    margin-bottom: 10px;
+}
 
 /* Footer */
 footer {
