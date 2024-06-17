@@ -45,7 +45,7 @@ header {
 }
 
 #services {
-    margin-top: 650px;
+    margin-top: 160px;
     text-align: center;
     font-size: 150%;
     margin-left: 15%;
@@ -97,6 +97,7 @@ nav {
     top: 0;
     word-spacing: 10px;
     margin-top: 50px;
+    color: white;
 }
 
 /* Nav Toggle */
@@ -130,17 +131,7 @@ main {
 #hero {
     background: url(../images/Untitled\ design-9.png) no-repeat center center/cover;
     position: absolute;
-    height: 800px;
-    width: 100%;
-    top: 0;
-    background-size: 100%;
-}
-
-#hero2 {
-    background: url(../images/Untitled\ design-10.png) no-repeat center center/cover transparent;
-    position: absolute;
-    text-align: center;
-    height: 800px;
+    height: 223px;
     width: 100%;
     top: 0;
     background-size: 100%;
@@ -225,8 +216,13 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 1px solid #FDFDFD;
+    }
+
+    #hero {
+        height: 800px;
     }
 
     #social-networks i {
@@ -234,6 +230,7 @@ footer {
     }
 
     #services {
+        margin-top: 700px;
         font-size: 120%;
     }
 
