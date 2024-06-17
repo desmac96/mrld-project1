@@ -59,7 +59,7 @@ header a {
 }
 
 #sc-mixes {
-    margin-top: 80px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -134,7 +134,6 @@ main {
     height: 223px;
     width: 100%;
     top: 0;
-    background-size: 100%;
 }
 
 #sign-up {
@@ -236,6 +235,10 @@ footer {
 
     #sign-up {
         font-size: 150%;
+    }
+
+    #sc-mixes {
+        margin-top: 80px;
     }
 
 }
