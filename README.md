@@ -26,5 +26,21 @@ The mixes link is the second link on the nav bar. This page is there for the use
 Form
 </h3>
 <p>
-This section is the key section , of the webpage. The form is on the right side of the nav bar. This is where the user provides your details and choose what services you need.
+This section is the key section , of the webpage. The form is on the right side of the nav bar. This is where the user provides their details and choose what services they need.
 </p>
+<h3>
+Footer
+</h3>
+<p>
+The footer section includes external links to all MRLD's Social Media pages.
+</p>
+<ul><h3>First Time Visitor Goals</h3></ul>
+<li>
+As a first time visitor I'd like to easily understand the main purpose of the website and I'd also like to know what services are being offered.
+</li>
+<li>
+As a first time visitor I'd like to be able to easily navigate through the website. Being able to jump to each page with one click.
+</li>
+<li>
+As a first time visitor I'd like to be able to sign up for courses, hire a DJ, mix engineer or equipment if I am interested in any of those services.
+</li>
