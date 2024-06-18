@@ -75,4 +75,6 @@ Design
 <li>The two main colours used are black and white. They work well with colours in the hero image. I also used green for the sign up form button, to match the green in the hero image.</li>
 <ul><h3>Typography</h3></ul>
 <li>The two fonts used in this website are Montserrat and Kanit. They were imported through font awesome. They are quite similar so they work well together. Their style suits the kind of website MRLD needed. Sans Serif is the fallback incase for any reason that the font is'nt being imported into the site correctly. I got inspiration to use the Montserrat font when I seen it on PIV Records website.</li>
-
+<ul>Imagery</ul>
+<li>
+Imagery is very important when building a website. The large background hero image is designed to catch the users eye and also familiarise the user with the MRLD logo. </li>
