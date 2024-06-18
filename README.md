@@ -32,7 +32,7 @@ This section is the key section , of the webpage. The form is on the right side 
 Footer
 </h3>
 <p>
-The footer section includes external links to all MRLD's Social Media pages.
+The footer section includes external links to all MRLD's Social Media pages. There is also links to contact MRLD by email or phone call. Finally there is a location symbol that brings you to MRLDs location on the maps. All these links are shown by the suitable symbol.
 </p>
 <ul><h3>First Time Visitor Goals</h3></ul>
 <li>
