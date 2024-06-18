@@ -34,6 +34,7 @@ Footer
 <p>
 The footer section includes external links to all MRLD's Social Media pages. There is also links to contact MRLD by email or phone call. Finally there is a location symbol that brings you to MRLDs location on the maps. All these links are shown by the suitable symbol.
 </p>
+<section>
 <ul><h3>First Time Visitor Goals</h3></ul>
 <li>
 As a first time visitor I'd like to easily understand the main purpose of the website and I'd also like to know what services are being offered.
@@ -44,3 +45,26 @@ As a first time visitor I'd like to be able to easily navigate through the websi
 <li>
 As a first time visitor I'd like to be able to sign up for courses, hire a DJ, mix engineer or equipment if I am interested in any of those services.
 </li>
+<ul><h3>Returning Visitor Goals</h3></ul> 
+<li>
+As a returning visitor I want to see all the necessary contact details.
+</li>
+<li>
+As a returning visitor I want to find out what location the courses will be set in.
+</li>
+<li>
+As a returning visitor I want to be able to sign up for the course if I have decided to join the academy.
+</li>
+<ul>
+<h3>Frequent User Goals</h3>
+</ul>
+<li>
+As a frequent user I would like to be able to sign up for the newsletter so that I receive emails about upcoming courses and offers.
+</li>
+<li>
+As a frequent user I would like to be able to click a link that brings me directly to MRLDs social media accounts.
+</li>
+<li>
+As a frequent user I'd like to be inspired by the hero image.
+</li>
+</section>
