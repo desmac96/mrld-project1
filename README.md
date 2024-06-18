@@ -68,3 +68,8 @@ As a frequent user I would like to be able to click a link that brings me direct
 As a frequent user I'd like to be inspired by the hero image.
 </li>
 </section>
+<h2>
+Design
+</h2>
+<ul><h3>Colour Scheme</h3></ul>
+<li>The two main colours used are black and white. They work well with colours in the hero image. I also used green for the sign up form button, to match the green in the hero image.</li>
