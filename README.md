@@ -78,3 +78,10 @@ Design
 <ul>Imagery</ul>
 <li>
 Imagery is very important when building a website. The large background hero image is designed to catch the users eye and also familiarise the user with the MRLD logo. </li>
+<h2>Features</h2>
+<li>Responsive on all devices</li>
+<li>Interactive elements</li>
+<h2>Technologies Used</h2>
+<li>HTML5</li>
+<li>CSS3</li>
+<h2>Frameworks, Libraries & Programs Used</h2>
