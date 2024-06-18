@@ -22,3 +22,9 @@ Mixes
 <p>
 The mixes link is the second link on the nav bar. This page is there for the user to be able to listen to MRLD's radioshow via the embedded Soundcloud.
 </p>
+<h3>
+Form
+</h3>
+<p>
+This section is the key section , of the webpage. The form is on the right side of the nav bar. This is where the user provides your details and choose what services you need.
+</p>
