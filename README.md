@@ -20,4 +20,5 @@ The landing page has an eye catching image that I created on Canva. The image co
 Mixes
 </h3>
 <p>
-
+The mixes link is the second link on the nav bar. This page is there for the user to be able to listen to MRLD's radioshow via the embedded Soundcloud.
+</p>
