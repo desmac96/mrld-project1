@@ -10,3 +10,14 @@
 <p>
 The Navigation Bar contains three links. The first link is the home page that provides information about the services offered from MRLD. The middle link on the navigation bar brings you to 'Mixes' page. This page has embedded Soundcloud links so you can listen to MRLDs latest mixes. The third link is on the far right, it is a form link. It takes you to the form page where you can sign up for any of the services that MRLD offers or ask a question.
 </p>
+<h3>
+The Landing Page
+</h3>
+<p>
+The landing page has an eye catching image that I created on Canva. The image contains the MRLD logo and also a crowd at a party. There is also information beneath the hero image informing the user the sevices that MRLD offers.
+</p>
+<h3>
+Mixes
+</h3>
+<p>
+
