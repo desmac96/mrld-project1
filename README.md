@@ -88,3 +88,15 @@ Imagery is very important when building a website. The large background hero ima
 <li>HTML5</li>
 <li>CSS3</li>
 <h2>Frameworks, Libraries & Programs Used</h2>
+<li>Google Fonts:
+Google fonts were used to import the 'Montserrat' and 'Kanit' fonts into the style.css file which is used on all pages throughout the project. </li>
+<li>Font Awesome:
+Font Awesome was used throughout the website to add icons for aesthetic and UX purposes. </li>
+<li>Git:
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.</li>
+<li>GitHub:
+GitHub is used to store the projects code after being pushed from Git.</li>
+<h2>Testing</h2>
+<li>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. </li>
+<li>The site was also tested using devtools Lighthouse. Here are the results <li>
+![alt text](assets/images/mrld-lighthouse.png)
