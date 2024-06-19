@@ -3,8 +3,7 @@
 <br>
 <p>MRLD is an electronic music hub offering a variety of services. The website offers DJ services to hire, equipment to rent, mixing engineers and also a school teaching students about various electronic music topics. The website provides information about the services offered and also offers a form where you can sign up for courses and ask any questions. You need to provide your full name, email address and mobile phone number to fill in the form. When signing up you are given the option of signing up for the newsletter also by clicking on the checkbox provided. The website provides external links to all MRLD's social media pages. There is also a mixes page that has embedded soundcloud links. </p>
 
-![amiresponsive](assets/css/images/mrld-amiresponsive.png)
-
+![amiresponsive](assets/images/mrld-amiresponsive.png)
 
 <br>
 <h2>Existing Features</h2>
