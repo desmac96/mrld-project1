@@ -98,5 +98,78 @@ Git was used for version control by utilizing the Gitpod terminal to commit to G
 GitHub is used to store the projects code after being pushed from Git.</li>
 <h2>Testing</h2>
 <li>The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. </li>
+
+![alt text](assets/images/css-validation.png)
+
 <li>The site was also tested using devtools Lighthouse. Here are the results <li>
+
 ![alt text](assets/images/mrld-lighthouse.png)
+
+<h3>Testing User Stories from User Experience (UX) Section</h3>
+<h4>First Time Visitor Goals</h4>
+<ul>As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about what services are being offered.</ul>
+<li>Upon entering the site the user is greeted with an easily readable navigation bar that links you to each section of the page</li>
+<li>Immediately you learn what sevices are being offered</li>
+<li>The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the services being offered by Kingdom Audio Academy.</li>
+<ul>As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.</ul>
+<li>The site has been designed small so the user doesnt get distracted. Once they have red the about us section the only thing to do next is sign up.</li>
+<li>At the bottom of the page their is links to the Instagram and Facebook accounts to entice the user to follow Kingom Audio Academy. </li>
+<h4>Returning Visitor Goals</h4>
+<ul>As a returning visitor I  want to find the best ways to contact Kingdom Audio Academy</ul>
+<li>The navigation bar clearly highlights the "Contact Us" Page.
+<li>The footer contains links to the organisations Facebook and Instagram page as well as the organization's email.</li>
+<li>The footer also contains the location of the studio and the companies mobile phone number.</li>
+<li>Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.</li>
+<h4>Frequent User Goals</h4>
+<ul>As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organization.
+<li>At the bottom of the form their is a clickable checkbox. Ticking this checkbox signs the user up for the newsletter.</li>
+<li>There is a "Sign Up" button at the bottom of the form. Clicking this button after ticking the checkbox signs the user up for the newsletter.</li>
+<h3>Further Testing</h3>
+<li>The website was tested on Google Chrome, Internet Explorer, Microshift Edge and Safari browsers.</li>
+<li>The website was viewed on a variety of devices such ad Desktop, laptop, tablets and mobile phones.</li>
+<li>A large amount of testing was done to make sure all links are working correctly.</li>
+<li>Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.</li>
+<h3>Known Bugs</h3>
+<li>Originally I had planned to have the footer section in white. After struggling to change the text color to black for the footer section I decided to keep the footer section black with white text and to put the form within the section above it white, to break the page up.  </li>
+<li>On mobile phone sizes the sign up section of the navigation bar is slightly less visible.</li
+
+<h2>Deployment</h2>
+<h3>GitHub Pages</h3>
+<ul>The project was deployed to GitHub Pages using the following steps...<ul>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  At the top of the Repository (not top of the page), locate the "Settings" Button on the menu.</li>
+<li>3.  Scroll down the Settings page until you locate the "GitHub Pages" Section.</li>
+<li>4.  Under "Source", click the dropdown called "None" and select "Master Branch"</li>
+<li>5.  The page will automatically refresh.</li>
+<li>6.  Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.</li>
+<h3>Forking the GitHub Repository</h3>
+<ul>By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...</ul>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.</li>
+<li>3.  You should now have a copy of the original repository in your GitHub account.</li>
+<h3>Making a Local Clone</h3>
+<li>1.  Log in to GitHub and locate the GitHub Repository</li>
+<li>2.  Under the repository name, click "Clone or download".</li>
+<li>3.  To clone the repository using HTTPS, under "Clone with HTTPS", copy the link</li>
+<li>4.  Open Git Bash</li>
+<li>5.  Change the current working directory to the location where you want the cloned directory to be made.</li>
+<li>6.  Type git clone, and then paste the URL you copied in Step 3.
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY</li>
+
+<li>7.  Press Enter. Your local clone will be created. </li>
+<ul>$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY </ul>
+<ul>> Cloning into `CI-Clone`... </ul>
+<ul>> remote: Counting objects: 10, done. </ul>
+<ul>> remote: Compressing objects: 100% (8/8), done. </ul>
+<ul>> remove: Total 10 (delta 1), reused 10 (delta 1)</ul>
+<ul>> Unpacking objects: 100% (10/10), done.</ul>
+<h2>Credits</h2>
+<h3>Code</h3>
+<li>I used the Love Running project as a guide. </li>
+<h3>Content</h3>
+<li>All content was written by the developer.</li>
+<h3>Media</h3>
+<li>The hero image was downlo. </li>
+<h3>Acknowledgements</h3>
+<li>My mentor for continuous helpful feedback. </li>
+<li>Tutor support at Code Institute for their support</li> 
