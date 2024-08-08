@@ -1,13 +1,4 @@
-/* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* Add these CSS rules to ensure the new headings are styled appropriately */
 
 /* General Styles */
 body {
@@ -27,88 +18,18 @@ body {
     height: 223px;
     width: 100%;
     top: 0;
-}
-
-/* Headings */
-h1,
-h2,
-h3 {
-    font-family: 'Kanit', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #FDFDFD;
-    text-decoration: none;
-}
-
-/* Header */
-header {
-    background-color: transparent;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Styling of links in the header */
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Menu styling */
-#menu {
-    font-size: 110%;
-    letter-spacing: 2px;
-    list-style-type: none;
-}
-
-#menu>li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #FDFDFD;
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px black;
-    display: none;
-    top: 0;
-    word-spacing: 10px;
-    margin-top: 50px;
+#hero h2 {
     color: white;
-}
-
-/* Nav Toggle */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
     font-size: 2rem;
+    text-align: center;
 }
 
-/* Main Content */
-main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 43px;
-}
-
-/* Main Text Area Style */
+/* Services Section */
 #services {
     margin-top: 160px;
     text-align: center;
@@ -119,6 +40,10 @@ main {
     font-size: 100%;
     background-color: #333;
     border-radius: 10px;
+}
+
+#services h2 {
+    margin-bottom: 20px;
 }
 
 #services div {
