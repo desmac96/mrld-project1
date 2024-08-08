@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Reset default browser styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* General Styles */
+/* General styles for the body */
 body {
     min-height: 50vh;
     display: flex;
@@ -22,14 +22,14 @@ body {
 /* Hero Section */
 #hero {
     background: url(../images/mrld-hero-image.png) no-repeat center center/cover;
-    position: fixed; 
-    margin-top: 0%;
     height: 223px;
     width: 100%;
     top: 0;
+    position: relative; /* Ensure hero section stays at the top */
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 1; /* Ensure it appears above other content */
 }
 
 #hero h2 {
@@ -38,7 +38,7 @@ body {
     text-align: center;
 }
 
-/* Headings */
+/* Headings Styles */
 h1,
 h2,
 h3 {
@@ -55,20 +55,20 @@ header {
     background-color: transparent;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 99; /* Ensure header stays above other content */
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-/* Styling of links in the header */
+/* Header link styles */
 header a {
     text-decoration: none;
     color: inherit;
 }
 
-/* Menu styling */
+/* Navigation Menu Styling */
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
@@ -83,7 +83,7 @@ header a {
     border-bottom: 1px solid #FDFDFD;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Navigation bar with dropdown toggle */
 nav {
     position: absolute;
     width: 100%;
@@ -98,7 +98,7 @@ nav {
 }
 
 #nav-toggle:checked ~ nav {
-    display: block;
+    display: block; /* Display nav when checkbox is checked */
 }
 
 #nav-toggle {
@@ -109,23 +109,24 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
+/* Main Content Styles */
 main {
     flex: 1 0 auto;
     margin-top: 43px;
 }
 
-/* Main Text Area Style */
+/* Services Section */
 #services {
-    margin-top: 223px; /* Add margin-top equal to the height of #hero */
+    margin-top: 223px; /* Adjust to height of #hero to place below */
     text-align: center;
     font-size: 150%;
     margin-left: 15%;
     margin-right: 15%;
     padding: 5%;
     font-size: 100%;
-    background-color: #333;
+    background-color: #333; /* Grey background for distinct sections */
     border-radius: 10px;
+    z-index: 0; /* Ensure it appears below the hero section */
 }
 
 #services h2 {
@@ -136,7 +137,7 @@ main {
     margin-bottom: 10px;
 }
 
-/* Embedded SoundCloud links positioning */
+/* SoundCloud Mixes Section */
 #sc-mixes {
     margin-top: 20px;
     display: flex;
@@ -155,7 +156,7 @@ main {
 .mix {
     flex: 1 1 300px;
     max-width: 600px;
-    background-color: #222;
+    background-color: #222; /* Dark background for mix items */
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -177,12 +178,12 @@ main {
     font-weight: 100;
 }
 
-/* Styling for sign up form and buttons */
+/* Sign Up Form Styles */
 #sign-up-form {
     text-align: center;
     margin-top: 60px;
     font-size: 120%;
-    background-color: #444;
+    background-color: #444; /* Dark grey background for the form */
     padding: 20px;
     border-radius: 10px;
     width: 80%;
@@ -200,7 +201,7 @@ main {
 }
 
 #button {
-    background-color: #04AA6D;
+    background-color: #04AA6D; /* Green button */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -234,7 +235,7 @@ main {
     margin-left: 10px;
 }
 
-/* Footer styling and positioning */
+/* Footer Styles */
 footer {
     clear: both;
     position: relative;
@@ -255,9 +256,10 @@ footer {
     color: #FDFDFD;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media Queries */
+
+/* Tablets and larger screens */
 @media screen and (min-width: 768px) {
-    /* Nav bar styling */
     nav {
         display: block;
         position: relative;
@@ -293,14 +295,14 @@ footer {
     }
 }
 
-/* Large devices (laptops and desktops, 992px and up) */
+/* Laptops and larger screens */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #FDFDFD;
     }
 
     #hero {
-        height: 800px;
+        height: 800px; /* Larger hero height for bigger screens */
     }
 
     #social-networks i {
