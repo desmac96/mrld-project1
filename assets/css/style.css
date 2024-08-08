@@ -1,11 +1,19 @@
-/* Add these CSS rules to ensure the new headings are styled appropriately */
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 /* General Styles */
 body {
     min-height: 50vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #FDFDFD;
     background-color: black;
     font-family: 'Montserrat', sans-serif;
@@ -29,7 +37,84 @@ body {
     text-align: center;
 }
 
-/* Services Section */
+/* Headings */
+h1,
+h2,
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: transparent;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Styling of links in the header */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Menu styling */
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #FDFDFD;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px black;
+    display: none;
+    top: 0;
+    word-spacing: 10px;
+    margin-top: 50px;
+    color: white;
+}
+
+#nav-toggle:checked ~ nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    flex: 1 0 auto;
+    margin-top: 43px;
+}
+
+/* Main Text Area Style */
 #services {
     margin-top: 160px;
     text-align: center;
@@ -57,14 +142,26 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+    padding: 0 10px;
+}
+
+#sc-mixes h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .mix {
-    width: calc(50% - 10px);
+    flex: 1 1 300px;
+    max-width: 600px;
     background-color: #222;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+}
+
+.mix iframe {
+    width: 100%;
 }
 
 .mix-description {
@@ -159,7 +256,6 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Nav bar styling */
     nav {
         display: block;
@@ -173,7 +269,7 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -191,24 +287,13 @@ footer {
         font-size: 175%;
     }
 
-    #sign-up {
-        text-align: center;
-        font-size: 150%;
-    }
-
-    /* Embedded SoundCloud links positioning */
     #sc-mixes {
-        margin-top: 40px;
-    }
-
-    .mix {
-        width: calc(33% - 20px);
+        padding: 0 40px;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
     #menu a:hover {
         border-bottom: 1px solid #FDFDFD;
     }
@@ -221,21 +306,7 @@ footer {
         font-size: 200%;
     }
 
-    #services {
-        margin-top: 700px;
-        font-size: 120%;
-    }
-
-    #sign-up-form {
-        font-size: 150%;
-        margin-top: 100px;
-    }
-
     #sc-mixes {
-        margin-top: 80px;
-    }
-
-    .mix {
-        width: calc(33% - 20px);
+        padding: 0 60px;
     }
 }
