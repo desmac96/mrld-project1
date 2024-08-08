@@ -22,9 +22,11 @@ body {
 /* Hero Section */
 #hero {
     background: url(../images/mrld-hero-image.png) no-repeat center center/cover;
-    position: relative; /* Changed from absolute to relative */
+    position: fixed; 
+    margin-top: 0%;
     height: 223px;
     width: 100%;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -115,7 +117,7 @@ main {
 
 /* Main Text Area Style */
 #services {
-    margin-top: 160px;
+    margin-top: 223px; /* Add margin-top equal to the height of #hero */
     text-align: center;
     font-size: 150%;
     margin-left: 15%;
